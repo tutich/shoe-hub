@@ -8,6 +8,9 @@ import { MdPerson} from 'react-icons/md'
         <div>
             <nav>
                 <div>
+                    <h2><span className='shoe'>Shoe</span><span className='hub'>hub</span></h2>
+                </div>
+                <div>
                     <input
                     className="search"
                     type='text'
