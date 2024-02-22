@@ -1,4 +1,4 @@
-
+import { AiFillStar } from "react-icons/ai";
 
 const data = [
     {
@@ -302,3 +302,5 @@ const data = [
       }
       
 ]
+
+export default data;
