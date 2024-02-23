@@ -1,11 +1,11 @@
 import Category from "./category/Category";
 import "./Sidebar.css";
 
-function Sidebar() {
+function Sidebar({handleChange}) {
   return (
     <div>
       <section className="sidebar">
-        <Category />
+        <Category handleChange={handleChange} />
       </section>
     </div>
   );

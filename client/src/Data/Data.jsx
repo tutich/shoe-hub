@@ -1,8 +1,12 @@
+
+
+
+
 import { AiFillStar } from "react-icons/ai";
 
 const data = [
     {
-        img: "client/src/dataimg/P-IMG-20230717-WA0012.jpg",
+        img: require('../dataimg/P-IMG-20230717-WA0012.jpg'),
         title: "Vans Off the Wall ",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -14,7 +18,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20230912-WA0047.jpg",
+        img: require('../dataimg/P-IMG-20230912-WA0047.jpg'),
         title: "Vans Off the Wall",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -26,7 +30,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20231121-WA0014.jpg",
+        img: require('../dataimg/P-IMG-20231121-WA0014.jpg'),
         title: "Vans Off the Wall",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -38,7 +42,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240107-WA0010.jpg",
+        img: require('../dataimg/P-IMG-20240107-WA0010.jpg'),
         title: "Vans Off the Wall",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -50,7 +54,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20230915-WA0005.jpg",
+        img: require('../dataimg/P-IMG-20230915-WA0005.jpg'),
         title: "Yeezy Foam Runners",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -62,7 +66,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20230915-WA0008.jpg",
+        img: require('../dataimg/P-IMG-20230915-WA0008.jpg'),
         title: "Yeezy Foam Runners",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -74,7 +78,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20230915-WA0009.jpg",
+        img: require('../dataimg/P-IMG-20230915-WA0009.jpg'),
         title: "Yeezy Foam Runners",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -86,7 +90,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20230915-WA0010.jpg",
+        img: require('../dataimg/P-IMG-20230915-WA0010.jpg'),
         title: "Yeezy Foam Runners",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -98,7 +102,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20231031-WA0029.jpg",
+        img: require("../dataimg/P-IMG-20231031-WA0029.jpg"),
         title: "Air Jordan 4 ",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -110,7 +114,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240205-WA0005.jpg",
+        img: require("../dataimg/P-IMG-20240205-WA0005.jpg"),
         title: "Air Jordan 4",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -122,7 +126,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240205-WA0008.jpg",
+        img: require("../dataimg/P-IMG-20240205-WA0008.jpg"),
         title: "Air Jordan 4",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -134,7 +138,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240218-WA0005.jpg",
+        img: require("../dataimg/P-IMG-20240218-WA0005.jpg"),
         title: "Jordan Air 4 PSG",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -146,7 +150,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240113-WA0027.jpg",
+        img: require("../dataimg/P-IMG-20240113-WA0027.jpg"),
         title: "Converse North Star",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -158,7 +162,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240113-WA0028.jpg",
+        img: require("../dataimg/P-IMG-20240113-WA0028.jpg"),
         title: "Converse North Star",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -170,7 +174,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240115-WA0007.jpg",
+        img: require("../dataimg/P-IMG-20240115-WA0007.jpg"),
         title: "Puma Suede",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -182,7 +186,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240115-WA0010.jpg",
+        img: require("../dataimg/P-IMG-20240115-WA0010.jpg"),
         title: "Puma Suede",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -194,7 +198,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240115-WA0017.jpg",
+        img: require("../dataimg/P-IMG-20240115-WA0017.jpg"),
         title: "Nike Jordan 1 Low",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -206,7 +210,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240207-WA0005.jpg",
+        img: require("../dataimg/P-IMG-20240207-WA0005.jpg"),
         title: "Nike Jordan 1 Low",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -218,7 +222,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240116-WA0018.jpg",
+        img: require("../dataimg/P-IMG-20240116-WA0018.jpg"),
         title: "LV skate sneaker",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -230,7 +234,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240205-WA0001.jpg",
+        img: require("../dataimg/P-IMG-20240205-WA0001.jpg"),
         title: "LV skate sneaker",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -242,7 +246,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240213-WA0008.jpg",
+        img: require("../dataimg/P-IMG-20240213-WA0008.jpg"),
         title: "Air Force 1 low",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -254,7 +258,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240213-WA0009.jpg",
+        img: require('../dataimg/P-IMG-20240213-WA0009.jpg'),
         title: "Air Force 1 low",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -266,7 +270,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240218-WA0000.jpg",
+        img: require('../dataimg/P-IMG-20240218-WA0000.jpg'),
         title: "Air Max 90",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -278,7 +282,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240218-WA0006.jpg",
+        img: require('../dataimg/P-IMG-20240218-WA0006.jpg'),
         title: "Air Max 90",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",
@@ -290,7 +294,7 @@ const data = [
       },
 
       {
-        img: "client/src/dataimg/P-IMG-20240205-WA0023.jpg",
+        img: require('../dataimg/P-IMG-20240205-WA0023.jpg'),
         title: "Jordan Air 3 'palomino'",
         star: <AiFillStar className="rating-star" />,
         reviews: "(123 reviews)",

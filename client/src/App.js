@@ -6,7 +6,8 @@ import Recommended from './components/Recommended';
 import Sidebar from './sidebar/Sidebar';
 import Products from './components/Products';
 import { useState } from 'react';
-import data from './Data/Data'
+import data from './Data/Data';
+import Card from './components/Card';
 
 function App() {
   const[selectedCategory, setSelectedCategory] = useState('null');
@@ -29,14 +30,14 @@ function App() {
   };
 
   function filteredDataa(data, selected, query) {
-    let filteredData = data;
+    let filteredProducts = data;
 
   if(query) {
-    filteredData = filteredItems
+    filteredProducts = filteredItems
   }
 
   if(selected) {
-    filteredData = filteredData.filter(
+    filteredProducts = filteredProducts.filter(
       ({ category, color, company, newPrice, title }) =>
         category === selected ||
         color === selected ||
@@ -45,9 +46,9 @@ function App() {
         title === selected
     );
   }
-  return filteredData.map(
+  return filteredProducts.map(
     ({ img, title, star, reviews, prevPrice, newPrice }) => (
-      <Products
+      <Card
         key={Math.random()}
         img={img}
         title={title}
@@ -60,14 +61,15 @@ function App() {
   );
   }
 
-
+ const result = filteredDataa(data, selectedCategory, query)
 
   return (
     <div className="App">
-      <Sidebar />
-      <Navbar />
-      <Recommended />
-      <Products />
+      <Sidebar handleChange={handleChange}/>
+      <Navbar query={query} handleInputChange={handleInputChange} />
+      <Recommended handleClick={handleClick} />
+      <Products result={result} />
+    
     </div>
   );
 }
